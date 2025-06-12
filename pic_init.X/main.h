@@ -12,9 +12,12 @@
 extern "C" {
 #endif
 
-#include <xc.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <xc.h>
+
+#include "adc.h"
+#include "interrupt.h"
 
 #define _XTAL_FREQ 20e6 // 20MHz
 
